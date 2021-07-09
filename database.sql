@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS mfc;
+CREATE DATABASE mfc;
+USE mfc;
+
+DROP TABLE IF EXISTS `Users`;
+
+CREATE TABLE `Users` (
+    `login` VARCHAR(16) NOT NULL,
+    `pass` VARCHAR(32) NOT NULL,
+    PRIMARY KEY(`login`)
+) ENGINE=InnoDB;
