@@ -7,6 +7,36 @@
   pointer-events: none;
 }
 
+.authorizationPage {
+  height: 100vh;
+  background: #a2a2a2;
+}
+
+.authorizationPage img {
+  margin: 40px 0 0 0;
+}
+
+.formAuthorization {
+  width: 0 800px;
+}
+
+.formAuthorization p {
+  font-size: 18px;
+}
+
+.formAuthorization input {
+  padding: 4px 6px 4px 6spx;
+  line-height: 12px;
+  font-size: 18px;
+}
+
+.formAuthorization button {
+  font-size: 16px;
+  padding: 6px 12px 6px 12px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
